@@ -1,10 +1,8 @@
-# React Webpack Boilerplate
-> A minimalistic boilerplate to begin an new React project
+# XHTML Template Created Using React 
+> Email template created using React and Webpack
 
 [![NPM Version][npm-image]][npm-url]
 [![Downloads Stats][npm-downloads]][npm-url]
-
-![](src/img/React-JS-ES6-Setup.png)
 
 ## Development setup
 
