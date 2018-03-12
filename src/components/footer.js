@@ -3,7 +3,7 @@ import {Email, Item, A, Box, Image} from 'react-html-email'
 
 const Footer = () => (
 
-  <Email title="Footer" style={{backgroundColor: '#f7f7f7', color: '#757575'}}>
+  <Item title="Footer" style={{backgroundColor: '#f7f7f7', color: '#757575'}}>
     <Item align="center">
       <p>Stop everything! Your weekly update of all things Nicopure is here.</p>
       <A class="mktNoTrack" href="{{system.viewAsWebpageLink}}">View as web page</A>
@@ -15,7 +15,7 @@ const Footer = () => (
         </Item>
       </Box>
     </Item>
-  </Email>
+  </Item>
 
 );
 
