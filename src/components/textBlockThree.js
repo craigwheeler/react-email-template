@@ -12,7 +12,7 @@ const sectionText = {
 const TextBlockThree = () => (
 
   <Item title="TextBlockThree">
-    <Box cellSpacing={20} align="center">
+    <Box cellSpacing={75} align="center">
       <Item align="center">
         <Span {...sectionText}>
           <h2>Contact Us!</h2>

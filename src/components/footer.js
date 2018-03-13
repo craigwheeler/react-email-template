@@ -1,6 +1,16 @@
 import React from 'react'
 import {Email, Item, A, Box, Image, Span} from 'react-html-email'
 
+const footerLinks = {
+  fontFamily: 'Calibri, sans-serif',
+  fontSize: 12,
+  fontWeight: 300,
+  color: '#757575',
+  textAlign: "center",
+  lineHeight: 16,
+  fontWeight: 500,
+}
+
 const footerText = {
   fontFamily: 'Calibri, sans-serif',
   fontSize: 10,
@@ -14,6 +24,18 @@ const Footer = () => (
 
   <Item title="Footer">
     <Box cellSpacing={25} style={{backgroundColor: '#f7f7f7'}}>
+
+      <Item>
+        <Box cellSpacing={10} width="100%">
+          <Item align="center">
+            <A textDecoration="none" href="#" style={{margin: '0 10px'}}><Span {...footerLinks}>BRANDS</Span></A>
+            <A textDecoration="none" href="#" style={{margin: '0 10px'}}><Span {...footerLinks}>NEWS</Span></A>
+            <A textDecoration="none" href="#" style={{margin: '0 10px'}}><Span {...footerLinks}>WHOLESALE</Span></A>
+            <A textDecoration="none" href="#" style={{margin: '0 10px'}}><Span {...footerLinks}>CONTACT</Span></A>
+          </Item>
+        </Box>
+      </Item>
+
       <Item>
         <Box cellSpacing={10} width="100%">
           <Item align="center">
@@ -24,13 +46,13 @@ const Footer = () => (
               <Image style={{display: 'inline', margin: '0 5px'}} alt="icon-twitter" src="https://www.halocigs.com/media/wysiwyg/emails/icons-g/twitter.png" width="30" vspace="0" hspace="0" border="0" />
             </A>
             <A textDecoration="none" href="#">
-              <Image style={{display: 'inline', margin: '0 5px'}} alt="icon-googleplus" src="https://www.halocigs.com/media/wysiwyg/emails/icons-g/googleplus.png" width="30" vspace="0" hspace="0" border="0" />
+              <Image style={{display: 'inline', margin: '0 5px'}} alt="icon-instagram" src="https://www.halocigs.com/media/wysiwyg/emails/icons-g/instagram.png" width="30" vspace="0" hspace="0" border="0" />
             </A>
             <A textDecoration="none" href="#">
               <Image style={{display: 'inline', margin: '0 5px'}} alt="icon-pinterest" src="https://www.halocigs.com/media/wysiwyg/emails/icons-g/pinterest.png" width="30" vspace="0" hspace="0" border="0" />
             </A>
             <A textDecoration="none" href="#">
-              <Image style={{display: 'inline', margin: '0 5px'}} alt="icon-instagram" src="https://www.halocigs.com/media/wysiwyg/emails/icons-g/instagram.png" width="30" vspace="0" hspace="0" border="0" />
+              <Image style={{display: 'inline', margin: '0 5px'}} alt="icon-googleplus" src="https://www.halocigs.com/media/wysiwyg/emails/icons-g/googleplus.png" width="30" vspace="0" hspace="0" border="0" />
             </A>
           </Item>
           <Item align="center">

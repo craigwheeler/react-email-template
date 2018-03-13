@@ -12,7 +12,7 @@ const sectionText = {
 const TextBlockOne = () => (
 
   <Item title="TextBlockOne">
-    <Box cellSpacing={20} align="center">
+    <Box cellSpacing={25} align="center">
       <Item align="center">
         <Span {...sectionText}>
           <h2>Quality Base. Value Price.</h2>
