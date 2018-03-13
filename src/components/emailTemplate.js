@@ -5,6 +5,10 @@ import ImageOne from './imageOne'
 import ImageTwo from './imageTwo'
 import TextBlockOne from './textBlockOne'
 import ImageThree from './imageThree'
+import TextBlockTwo from './textBlockTwo'
+import ImageFour from './imageFour'
+import TextBlockThree from './textBlockThree'
+import Footer from './footer'
 
 const EmailTemplate = () => (
   <Email style={{backgroundColor: '#fff'}}>
@@ -13,6 +17,10 @@ const EmailTemplate = () => (
     <ImageTwo/>
     <TextBlockOne/>
     <ImageThree/>
+    <TextBlockTwo/>
+    <ImageFour/>
+    <TextBlockThree/>
+    <Footer/>
   </Email>
 );
 

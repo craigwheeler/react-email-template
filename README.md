@@ -1,4 +1,4 @@
-# XHTML Template Created Using React 
+# XHTML Email Template Created Using React 
 > Email template created using React and Webpack
 
 [![NPM Version][npm-image]][npm-url]
