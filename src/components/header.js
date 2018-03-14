@@ -11,15 +11,18 @@ const headerText = {
 const Header = () => (
 
   <Item>
-    <Box title="Header" cellSpacing={10} align="center">
+    <Box title="Header" align="center" width="100%" class="mktEditable" id="header_text_1">
       <Item align="center">
-        <Span {...headerText}>Stop everything! Your weekly update of all things Nicopure is here.<br/>
-        <A color="#757575" textDecoration="none;" class="mktNoTrack" href="{{system.viewAsWebpageLink}}">View as web page</A></Span>
+        <p style={{textAlign: 'center'}}>
+          <Span {...headerText}>Stop everything! Your weekly update of all things Nicopure is here.<br/>
+          <A color="#757575" textDecoration="none;" class="mktNoTrack" href="{{system.viewAsWebpageLink}}">View as web page</A></Span>
+        </p>
       </Item>
     </Box>
-    <Box cellSpacing={20} width="100%" style={{borderTop: '2px solid black'}}>
+    <Box align="center" width="100%" class="mktEditable" id="logo_image_1">
       <Item align="center">
-        <Image data-mc-bar="bar" data-mc-baz="baz" alt="logo" src="https://halocigs.com/media/media/emails/nicopure-logo-180px.png" width={180} height={94}/>
+        <hr style={{borderTop: '2px solid black'}}/>
+        <Image data-mc-bar="bar" data-mc-baz="baz" alt="logo" src="https://halocigs.com/media/media/emails/nicopure-logo-180px.png" width={180} height={94} style={{marginRight: 'auto', marginLeft: 'auto'}}/>
       </Item>
     </Box>
   </Item>
