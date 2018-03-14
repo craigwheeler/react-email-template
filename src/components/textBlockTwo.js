@@ -11,8 +11,8 @@ const sectionText = {
 
 const TextBlockTwo = () => (
 
-  <Item title="TextBlockTwo">
-    <Box cellSpacing={20} align="center">
+  <Item>
+    <Box title="TextBlockTwo" cellSpacing={20} align="center">
       <Item align="center">
         <Span {...sectionText}>
           <h2>Free Display with Purchase!</h2>

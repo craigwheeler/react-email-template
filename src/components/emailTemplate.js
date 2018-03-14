@@ -11,7 +11,7 @@ import TextBlockThree from './textBlockThree'
 import Footer from './footer'
 
 const EmailTemplate = () => (
-  <Email style={{backgroundColor: '#fff'}}>
+  <Email title="EmailTemplate" style={{backgroundColor: '#fff'}}>
     <Header/>
     <ImageOne/>
     <ImageTwo/>

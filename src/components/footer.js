@@ -22,8 +22,8 @@ const footerText = {
 
 const Footer = () => (
 
-  <Item title="Footer">
-    <Box cellSpacing={25} style={{backgroundColor: '#f7f7f7'}}>
+  <Item>
+    <Box title="Footer" cellSpacing={25} style={{backgroundColor: '#f7f7f7'}}>
 
       <Item>
         <Box cellSpacing={10} width="100%">
@@ -56,15 +56,15 @@ const Footer = () => (
             </A>
           </Item>
           <Item align="center">
-            <Image data-mc-bar="bar" data-mc-baz="baz" alt="footer-logo" src="./img/nicopure-dark.png" width={120}/>
+            <Image data-mc-bar="bar" data-mc-baz="baz" alt="footer-logo" src="https://www.halocigs.com/media/wysiwyg/emails/nicopure-powerby-dark.png" width={120}/>
           </Item>
         </Box>
       </Item>
       <Item align="center">
         <Span {...footerText}><p>7916 Evolutions Way Suite 200, Trinity, Florida 34655 United States</p>
-        <A textDecoration="none" class="mktNoTrack" href="{{system.viewAsWebpageLink}}" style={{color: '#757575'}}>Forward email to friend</A>
+        <A textDecoration="none" class="mktNoTrack" href="{{system.forwardToFriendLink}}" style={{color: '#757575'}}>Forward email to friend</A>
         <br/>
-        <A textDecoration="none" class="mktNoTrack" href="{{system.viewAsWebpageLink}}" style={{color: '#757575'}}>Unsubscribe</A></Span>
+        <A textDecoration="none" class="mktNoTrack" href="{{system.unsubscribeLink}}" style={{color: '#757575'}}>Unsubscribe</A></Span>
       </Item>
       <Item align="center">
         <Box align="center">

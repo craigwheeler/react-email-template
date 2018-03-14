@@ -10,8 +10,8 @@ const headerText = {
 
 const Header = () => (
 
-  <Item title="Header">
-    <Box cellSpacing={10} align="center">
+  <Item>
+    <Box title="Header" cellSpacing={10} align="center">
       <Item align="center">
         <Span {...headerText}>Stop everything! Your weekly update of all things Nicopure is here.<br/>
         <A color="#757575" textDecoration="none;" class="mktNoTrack" href="{{system.viewAsWebpageLink}}">View as web page</A></Span>
