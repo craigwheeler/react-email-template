@@ -17,4 +17,4 @@ npm run build
 - Babel
 
 #### Template Screenshot:
-![Email Template](./dist/img/screenshot.jpg)
+![Email Template](./src/img/screenshot.jpg)
